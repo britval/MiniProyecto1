@@ -1,0 +1,138 @@
+/* ======== FUENTE GENERAL ======== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* ======== BASE GENERAL ======== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(145deg, #f6f3ff, #f2edff);
+    color: #2c2c2c;
+}
+
+/* ======== TÍTULOS ======== */
+h1 {
+    color: #5B2C6F;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #6C3483;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* ======== CONTENEDOR GENERAL ======== */
+.container {
+    background-color: #ffffff;
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(108, 92, 231, 0.15);
+    text-align: center;
+}
+
+/* ======== FORMULARIOS ======== */
+form {
+    margin: 25px 0;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="text"],
+select {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #d6ccff;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0 2px 3px rgba(108, 92, 231, 0.08);
+}
+
+input:focus {
+    outline: none;
+    border-color: #7C6FF2;
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.3);
+}
+
+/* ======== BOTONES ======== */
+button {
+    background: #6C5CE7;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 22px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(108, 92, 231, 0.25);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #7C6FF2;
+    transform: translateY(-2px);
+}
+
+/* ======== RESULTADOS ======== */
+ul {
+    list-style: none;
+    padding: 0;
+    width: fit-content;
+    margin: 15px auto;
+    text-align: left;
+}
+
+ul li {
+    background: #f7f4ff;
+    padding: 10px 15px;
+    margin: 6px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(108, 92, 231, 0.08);
+}
+
+p {
+    color: #333;
+}
+
+/* ======== ENLACE DE RETORNO ======== */
+a {
+    text-decoration: none;
+    color: #6C5CE7;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+
+/* ======== GRAFICOS ======== */
+canvas {
+    margin-top: 20px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgba(108, 92, 231, 0.08);
+}
+
+/* ======== ANIMACIONES SUAVES ======== */
+body {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
